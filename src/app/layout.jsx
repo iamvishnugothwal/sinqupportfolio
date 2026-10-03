@@ -1,3 +1,4 @@
+import GTMRouteTracker from "./GTMRouteTracker";
 import { Poppins, Unbounded } from "next/font/google";
 import { GoogleTagManager } from "@next/third-parties/google";
 import "./globals.css";
