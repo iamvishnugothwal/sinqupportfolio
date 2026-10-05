@@ -24,8 +24,9 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en">
+    <html lang="en"> <head>
       <GoogleTagManager gtmId="GTM-N3XNDFP5"/>
+      <head/>
       <body
         className={`${poppins.variable}  ${unbounded.variable} `}
         cz-shortcut-listen="true"
