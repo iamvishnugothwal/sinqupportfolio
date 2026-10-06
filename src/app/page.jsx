@@ -13,7 +13,8 @@ import Footer from "@/components/Footer";
 import { GoogleTagManager } from '@next/third-parties/google'
 export default function Home() {
   return (
-    return <GoogleTagManager gtmId="GTM-XYZ" />
+  <GoogleTagManager gtmId="
+GTM-N3XNDFP5" />
     <div className="w-full min-h-screen   ">
       {/* <LaunchSoon /> */}
       <div className="w-full">
