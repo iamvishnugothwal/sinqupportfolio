@@ -10,8 +10,10 @@ import Services from "@/components/Services";
 import Work from "@/components/Work";
 import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
+import { GoogleTagManager } from '@next/third-parties/google'
 export default function Home() {
   return (
+    return <GoogleTagManager gtmId="GTM-XYZ" />
     <div className="w-full min-h-screen   ">
       {/* <LaunchSoon /> */}
       <div className="w-full">
