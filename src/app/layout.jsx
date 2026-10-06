@@ -2,6 +2,7 @@ import GTMRouteTracker from "./GTMRouteTracker";
 import { Poppins, Unbounded } from "next/font/google";
 import { GoogleTagManager } from "@next/third-parties/google";
 import "./globals.css";
+import { GoogleTagManager } from '@next/third-parties/google'
 
 const poppins = Poppins({
   variable: "--font-poppins",
@@ -24,9 +25,8 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en"> <head>
+    <html lang="en">
       <GoogleTagManager gtmId="GTM-N3XNDFP5"/>
-      <head/>
       <body
         className={`${poppins.variable}  ${unbounded.variable} `}
         cz-shortcut-listen="true"
